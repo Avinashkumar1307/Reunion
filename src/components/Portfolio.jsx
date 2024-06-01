@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-
+import image1 from '../gallery/1.jpg'
 const Portfolio = () => {
   const data = Array.from({ length: 32 }, (_, index) => ({
     imageLink: `src/gallery/${index + 1}.jpg`,
